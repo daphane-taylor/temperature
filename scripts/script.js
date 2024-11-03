@@ -51,7 +51,51 @@ otherVar = 60;
 console.log(aVar,otherVar); //50 60
 
 const weekDays = 5;
-weekDays = 10; //the constants can't change
+//weekDays = 10; the constants can't change
 console.log(weekDays);
 
-//USE LET INSTEAD OF VAR TO AVOID LOGIC ERRORS WHEN DECLARING VARIABLES
+//USE LET INSTEAD OF VAR TO AVOID LOGIC ERRORS WHEN DECLARING 
+
+//FUNNY STORY ASSIGNMENT 1 - PROGRAMMING FUNDAMENTALS
+
+//Declare Variables
+let character = "Whiskers";
+let action =  "chased";
+let object = "laser pointers";
+let place = "living room";
+let time = "One sunny afternoon";
+
+//Declare Constant
+const toy = "red dot";
+
+//Create The Story
+console.log("--------FUNNY STORY--------");
+console.log(character + " was a cat with a short attention span and an obsession with " + object +".");
+console.log(time + ", his owner, Sarah, decided to entertain him with the trusty " + toy + ".");
+console.log(character + " " + action + " the " + toy + " around the " + place + ", jumping onto furniture and crashing into pillows with no grace whatsoever .");
+
+console.log("Suddenly, the " + object + " battery died, and the " + toy + " vanished.");
+console.log(character + ", in a tizzy, searched every nook and cranny, convinced the " + toy + " was hiding");
+console.log("He even checked inside his own food bowl, much to his own confusion.");
+
+console.log("Sarah couldn't stop laughing as " + character + "' furtile hunt continued.");
+console.log("Finally, " + character + " gave up, plopped onto the couch, and fell asleep, dreaming of " + toy + " endless chases.");
+
+//Change the story using different variables and constants
+console.log("-------DIFFERENT VERSION OF THE STORY-------");
+
+character = "Roman";
+action = "followed";
+object = "mouse";
+place = "bedroom";
+time = "One evening";
+
+console.log(character + " was a cat with a short attention span and an obsession with his " + object + ".");
+console.log(time + ", his owner, Sarah, decided to entertain him with the trusty " + object + ".");
+console.log(character + " " + action + " the " + object + " around the " + place + ", jumping onto furniture and crashing into pillows with no grace whatsoever.");
+
+console.log("Suddenly, the " + object + " battery died, which made " + character + " lose interest. So Sarah went and got his other favorite toy; the " + toy + ".");
+console.log(character + ", now in a tizzy, he " + action + " the " + toy + " across every nook and cranny chasing it.");
+
+console.log("Sarah couldn't stop laughing as " + character + "' furtile hunt continued.");
+console.log("Finally, " + character + " gave up, plopped onto the couch, and fell asleep, dreaming of " + toy + " endless chases with his " + object + ".");
