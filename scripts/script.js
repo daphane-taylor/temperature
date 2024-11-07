@@ -99,3 +99,4 @@ console.log(character + ", now in a tizzy, he " + action + " the " + toy + " acr
 
 console.log("Sarah couldn't stop laughing as " + character + "' furtile hunt continued.");
 console.log("Finally, " + character + " gave up, plopped onto the couch, and fell asleep, dreaming of " + toy + " endless chases with his " + object + ".");
+
