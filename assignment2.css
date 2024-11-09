@@ -11,6 +11,7 @@ body {
 
 p {
     line-height: 1;
+    text-align: center;
 }
 
 .container {
@@ -46,4 +47,10 @@ p {
     padding: 20px;
     background-color: lightgray;
     border: 1px lightgray solid;    
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }

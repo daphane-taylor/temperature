@@ -1,0 +1,35 @@
+body {
+    background-color: #282521;
+    color: #a79575;
+    text-align: center;
+}
+
+#result {
+    width: 500px;
+    height: 20px;
+    margin: 8px  auto;
+    padding: 5px;
+    border-bottom: 1px solid #a79575;
+}
+
+.thermometer {width: 500px;
+    height: 20px;
+    border: 1px solid #a79575;
+    border-radius: 20px;
+    margin: 5px  auto;
+    padding: 5px;}
+
+.fahrenheit {
+    background-color: darkred;
+}
+
+.celsius {
+    background-color: darkblue;
+}
+
+.button {
+    background-color: #a79575;
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+}
