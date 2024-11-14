@@ -19,7 +19,7 @@ multiTable();
 //}
 
 //ARRAYS
-/* let students = ["Jose","Michael","Samson","Kit","Angel","Jonathan","andrew"];
+let students = ["Jose","Michael","Samson","Kit","Angel","Jonathan","Andrew"];
 let ages = [22,35,20,43,37,33,27];
 for(let i = 0; i < 6; i++) {
     document.getElementById("studentList").innerHTML += `
@@ -28,4 +28,4 @@ for(let i = 0; i < 6; i++) {
         <td> ${students[i]} </td>
         <td> ${ages[i]} </td>
     </tr>`;
-} */
+}
